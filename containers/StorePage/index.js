@@ -1,9 +1,19 @@
+import AboutUsComponent from "@/components/StorePage/AboutUsComponent";
+import Products from "@/components/StorePage/Products";
+import ScrollingImage from "@/components/StorePage/ScrollingImage";
+import StoreHome from "@/components/StorePage/StoreHome";
+import Image from "@/components/StorePage/Image";
+import Footer from "@/components/Footer";
 
-export default function StorePageConrainer(){
+
+
+export default function StorePageContainer(){
     
     return(
-        <div className="w-screen h-screen flex items-center justify-center">
-            store page container
+        <div>
+            <StoreHome/>
+            <Products />
+            <Footer />
         </div>
     )
 }

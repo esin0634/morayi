@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar"
 
 const Layout = ({ children }) => {
     return (
-      <div>
+      <div className="bg-[#E2E4DA]">
         <Navbar/>
         {children}
       </div>
