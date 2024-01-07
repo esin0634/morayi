@@ -17,7 +17,7 @@ const Products = () => {
             <div className='flex items-start lg:w-full'>
                 <div className='p-10'>
                     <h1 className=' text-7xl font-semibold text-[#D95E32]'>
-                        Spring 24' <br/> Ankara Collection.
+                        Spring 24&apos; <br/> Ankara Collection.
                     </h1>
 
                 </div>

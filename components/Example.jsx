@@ -1,5 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-
+import Image from 'next/image'
 const features = [
   {
     name: 'Push to deploy.',
@@ -34,7 +34,7 @@ export default function Example() {
             <div className="space-y-3">
               <p className="anan">about us: </p>
               <p className=" text-sm text-gray-700 w-3/6 ">
-                Here in PurpleBear, our designs are a harmonious blend of tradition and innovation, a testament to our dedication to timeless aesthetics. As your fingers trace its flawless contours, you can feel the soul of the woodwork resonating with your own. It's a connection, an unspoken understanding that this piece is more than just furniture; it's a piece of art, an heirloom in the making.
+                Here in PurpleBear, our designs are a harmonious blend of tradition and innovation, a testament to our dedication to timeless aesthetics. As your fingers trace its flawless contours, you can feel the soul of the woodwork resonating with your own. Its a connection, an unspoken understanding that this piece is more than just furniture; its a piece of art, an heirloom in the making.
               </p>
             </div>
             <a
@@ -46,7 +46,7 @@ export default function Example() {
           </div>
             </div>
           </div>
-          <img
+          <Image
             src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
