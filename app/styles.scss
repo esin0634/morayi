@@ -1,0 +1,25 @@
+$brown-color : #3e2c25eb;
+$blue-color : #bae2d8;
+$white-color : #fff7ec;
+$orange-color : #d87b00;
+$red-color : #F06060;
+
+$softorange: #382e32;
+$tomatored: #c11a2b;
+$mediumblu: #382e32;
+
+$fontDela: 'Dela Gothic One', cursive;
+$font-Lilita: 'Lilita One', cursive;
+$font-Lobster: 'Lobster', cursive;
+$font-Poiret: 'Poiret One', cursive;
+
+.retrofont{
+    font-size: 150px;
+    font-family: $fontDela;
+    color: $brown-color;
+    text-shadow: 5px 5px 0px #eb452b, 
+            10px 10px 0px #efa032, 
+            15px 15px 0px #46b59b, 
+            20px 20px 0px #017e7f, 
+           
+}
